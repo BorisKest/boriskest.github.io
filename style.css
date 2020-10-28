@@ -1,0 +1,419 @@
+body{ 
+    margin: 0;
+    font-family: 'Poiret One', cursive;
+
+    font-size: 28;
+    line-height: 1.6;
+    color: #000000;
+    /* Desktop - 1 */
+
+
+
+position: relative;
+width: 1437px;
+height: 5825px;
+
+background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(90deg, rgba(247, 0, 0, 0.42) 0%, rgba(28, 199, 0, 0.48) 100%), rgba(255, 255, 255, 0.59);
+opacity: 0.8;
+    
+}
+
+    
+   *:before,
+   *:after{
+        box-sizing: border-box;
+    }
+    
+    h1 ,h2 ,h3 ,h4 ,h5 ,h6 {
+        margin: 0;
+    }
+
+.container{
+    width: 100%;
+    max-width: 1437px;
+    margin: 0 auto;
+}
+.introtext {/* Помошь в получении вида на жительство */
+
+
+z-index: 1;
+
+
+
+position: absolute;
+left: 21.22%;
+right: 21.16%;
+top: -20px;
+bottom: 3880px;
+
+font-family: Poiret One;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 100px;
+text-align: center;
+/* identical to box height, or 278% */
+
+font-feature-settings: 'tnum' on, 'lnum' on, 'ss01' on, 'ss03' on, 'dnom' on, 'numr' on;
+
+color: #000000;
+
+mix-blend-mode: normal;
+    }
+
+/*intro*/
+.intro {
+    position: absolute;
+    width: 1067px;
+    height: 521px;
+    left: 191px;
+    top: 87px;
+    
+    background: url(Images/azores_ostrov-san-migel.jpg);
+    background-size: cover;
+    mix-blend-mode: normal;
+}
+
+.azorestext{
+    /* Азорские острова */
+
+position: absolute;
+left: 435px;
+right: 434px;
+top: 627px;
+bottom: 3981px;
+width: 600px;
+
+font-family: Poiret One;
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+line-height: 84px;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+color: #000000;
+}
+
+/* Португальская компания Feliz terra LDA Под руководством Dr. Norbrto Pereira Botelho специались в области земельного и имущиственного права Азор окажет помошь если вы решили обосноваться на Азорах.*/
+.companytext
+{position: absolute;
+    width: 833px;
+    height: 226px;
+    left: 150px;
+    top: 1132px;
+    
+    font-family: Poiret One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    font-feature-settings: 'tnum' on, 'lnum' on, 'ss01' on, 'ss03' on, 'dnom' on, 'numr' on;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.norbertoimg{
+  
+    
+    position: absolute;
+    width: 444px;
+    height: 279px;
+    left: 968px;
+    top: 1097px;
+    
+    background: url(images/Norberto2.jpg);
+background-size: cover;
+mix-blend-mode: normal;
+}
+.whaytext{
+/* Почему Португалия, почему Азоры. */
+
+
+position: absolute;
+width: 750px;
+height: 228px;
+left: 358px;
+top: 1767px;
+
+font-family: Poiret One;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 56px;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.backgroudunderimg1{/* Rectangle 1 */
+
+
+    position: absolute;
+    width: 806px;
+    height: 621px;
+    left: 322px;
+    top: 1881px;
+    
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 18px;
+}
+.firstristext{/* 1. Ближайшие источник загрязнение находится в 1500 км, свежий океанский воздух, незначительные колебания средней годовой температуры, */
+
+
+    position: absolute;
+    width: 732px;
+    height: 83px;
+    left: 359px;
+    top: 2392px;
+    
+    font-family: Poiret One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+.frimg1{/* 19 1 */
+
+
+    position: absolute;
+    width: 768px;
+    height: 559px;
+    left: 341px;
+    top: 1912px;
+    
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.17) 79.69%, #DFC8C7 95.83%), url(Images/19.jpeg);
+}
+
+.secondrtext{/* 2. Безопасная флора и фауна. Наименьшая в Португалии плотность заражения ковид 19. */
+
+
+    position: absolute;
+    width: 1000px;
+    height: 28px;
+    left: 267px;
+    top: 2521px;
+    
+    font-family: Poiret One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+    
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.terthrtext{/* 3.Свежие натуральные продукты круглый год */
+
+
+    position: absolute;
+    width: 480px;
+    height: 28px;
+    left: 498px;
+    top: 2571px;
+    
+    font-family: Poiret One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+    
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.forthrbg{/* Rectangle 3 */
+
+
+    position: absolute;
+    width: 732px;
+    height: 479px;
+    left: 353px;
+    top: 2633px;
+    
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 18px;
+}
+.forthrimg{/* 2020-10-07122720 1 */
+
+
+    position: absolute;
+    width: 689px;
+    height: 429px;
+    left: 374px;
+    top: 2655px;
+    
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.32) 65.64%, #DDC1BF 95.83%), url(Images/destinations-map-_-ponta-delgada-airport-_-google-chrome-2018_02_07-05.35.47.png);
+}
+.forthrtext{
+    /* 4.Удобное сообщение с континентом, регулярные прямые рейсы: Лондон, Дюссельдорф, Лиссабон, Порту, Торонто, Ванкувер, Женева. */
+
+
+position: absolute;
+width: 636px;
+height: 43px;
+left: 402px;
+top: 2998px;
+
+font-family: Poiret One;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.otherrtext{/* 5. Сниженные налоговые ставки в сравнении с континентальной Португалией, льготный таможенный режим для импорта и экспорта товаров в/из США, Канады. 6. Есть множество программ по субсидированную различных активностей от ЕС на Азорах . 7. Терминальные воды, чистейшая питьевая вода, пляжи для купания и серфинга, пляжи с терминальными источниками, люминисцирующая зелень круглый год. 8. Географически между Америкой и Европой, но политически европа. 9. Отсутствие нелегальных эмигрантов. */
+
+
+    position: absolute;
+    width: 1285px;
+    height: 436px;
+    left: 68px;
+    top: 3125px;
+    
+    font-family: Poiret One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    
+    color: #000000;
+}
+
+.whatwedotext{
+    /* Что мы делаем? 1. Комплексное юридическое сопровождение, оформления ВНЖ. 2. Помощь в открытии. Компании на Азорских островах. Предоставление почтового адреса виртуального офиса, секретарские услуги, налоговое представительство, кадровые услуги, временный персонал, 3 Подбор недвижимости для аренды или покупки. 4 Строительные и ремонтные работы. 5. Управление и обслужевание недвижимого имущества. 6. Личное налоговое представительство, оформление льготного налогового статуса. 7. Помощь в получении/замене водительских прав, прав на управление маломерными судами. 8. Помощь в таможенном оформлении транспортных средств и грузов, товаров личного потребления. */
+
+
+position: absolute;
+width: 643px;
+height: 951px;
+left: 68px;
+top: 3569px;
+
+font-family: Poiret One;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 33px;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+color: #000000;
+
+}
+.pricetext{/* Наши цены 1. 5 000 2. 1000 , адрес и виртуальный офис 500 в месяц 3. Подбор недвижимости в независимости от цены недвижимости в соответствии с Вашими требованиями покупка 10 000/ аренда 1000 4.5. Индивидуально в соовтетсиви с требованиями 6. 500 евро в год, 1800 7. Бесплатно для постоянных клиентов 8. в зависимости от стоимости и страны происхождения товара, например ввоз автомобиля из России для нового резидента таможенной стоимостью 100 000 евро 2014 года выпуска, при оформлении в 2020 году стоимость наших услуг составила бы 8900, а таможенный тариф и пошлины 0 (при соблюдении установленных ограничений). */
+
+
+    position: absolute;
+    width: 652px;
+    height: 1001px;
+    left: 717px;
+    top: 3569px;
+    
+    font-family: Poiret One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    
+    color: #000000;
+    }
+
+.contact{
+    /* Контакты */
+
+
+position: absolute;
+width: 190px;
+height: 100px;
+left: 624px;
+top: 4787px;
+
+font-family: Poiret One;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 56px;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+color: #000000;
+}
+
+.contimfb{
+
+
+
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 310px;
+    top: 4979px;
+
+    background: url(Images/Faceboockimg.png);
+    background-size: cover;
+    mix-blend-mode: normal;
+    }
+
+.contimig{
+    position: absolute;
+    width: 100px;
+    height: 97px;
+    left: 788px;
+    top: 4982px;
+    
+    background: url(Images/instaicon.png);
+    background-size: cover;
+    mix-blend-mode: normal;
+}
+
+.contimemail{
+    position: absolute;
+    width: 100px;
+    height: 97px;
+    left: 549px;
+    top: 4979px;
+    
+    background: url(Images/emailim.png);
+    background-size: cover;
+    mix-blend-mode: normal;
+}
+
+.contimvk{
+
+    position: absolute;
+    width: 100px;
+    height: 97px;
+    left: 1027px;
+    top: 4982px;
+    
+    background: url(Images/vkicon.png);
+    background-size: cover;
+    mix-blend-mode: normal;
+}

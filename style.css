@@ -116,12 +116,11 @@ color: #000000;
 
 .norbertoimg{
   
-    
     position: absolute;
-    width: 444px;
-    height: 279px;
     left: 968px;
+    right: 25px;
     top: 1097px;
+    bottom: 4449px;
     
     background: url(images/Norberto2.jpg);
 background-size: cover;

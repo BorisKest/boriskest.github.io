@@ -3,7 +3,7 @@ $(function(){
         $a = $('.demo label');
         $a.on('click', function(event) {
         event.preventDefault();
-        $a.not(this).next().slideUp(500);
-        $(this).next().slideToggle(500);
+        $a.not(this).next().slideUp(600);
+        $(this).next().slideToggle(600);
     });
 });

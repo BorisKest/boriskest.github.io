@@ -468,29 +468,9 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
     }
 
-     /* скрываем чекбоксы и блоки с содержанием */
-     .hide {
-        display: none; 
-    }
-    .hide + label ~ div{
-        display: none;
-    }
-    /* оформляем текст label */
-    .hide + label {
-        
-        padding: 0;
-    
-        cursor: pointer;
-        display: inline-block; 
-    }
-    /* вид текста label при активном переключателе */
-    .hide:checked + label {
-        
-        border-bottom: 0;
-    }
     /* когда чекбокс активен показываем блоки с содержанием  */
     .texthide {
-        display: block; 
+        display: none; 
         padding: 10px; 
         background: #efefef;
         
@@ -587,39 +567,39 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .mailtext{
     /* По всем интересующим вас вопросам вы можете обратиться по данному адресу электронной почты. */
-position: absolute;
-width: 609px;
-height: 97px;
-left: 87px;
-top: 4341px;
+    position: absolute;
+    width: 609px;
+    height: 97px;
+    left: 87px;
+    top: 4341px;
 
-font-family: Forum;
-font-style: normal;
-font-weight: normal;
-font-size: 28px;
-line-height: 31px;
-font-feature-settings: 'tnum' on, 'lnum' on;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 31px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
 
-color: #000000;
+    color: #000000;
 }
 .mailboxtex{
     /* Email: norberto@feliz-terra.com */
 
 
-position: absolute;
-width: 385px;
-height: 35px;
-left: 526px;
-top: 4457px;
+    position: absolute;
+    width: 385px;
+    height: 35px;
+    left: 526px;
+    top: 4457px;
 
-font-family: Forum;
-font-style: normal;
-font-weight: normal;
-font-size: 28px;
-line-height: 31px;
-font-feature-settings: 'tnum' on, 'lnum' on;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 31px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
 
-color: #000000;
+    color: #000000;
 }
 
 

@@ -10,122 +10,17 @@ body{
     font-family: 'Forum', cursive;
 
 
-    font-size: 28;
+    font-size: 24px;
     line-height: 1.6;
     color: #000000;
     /* Desktop - 1 */
 
     position: relative;
-    width: 1437px;
+    width: auto;
     height: 4722px;
     background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
     opacity: 0.8;
 }
-
-/*Slider*/
-
-.slider {
-    
-    position: absolute;
-    width: 1378px;
-    height: 512px;
-    left: 29px;
-    top: 1573px;
-    overflow: hidden;
-  }
-
-  .slider__wrapper {
-    display: flex;
-    transition: transform 0.6s ease;
-  }
-
-  .slider__item {
-    
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-
-  .slider__control {
-    position: absolute;
-    top: 50%;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    color: #fff;
-    text-align: center;
-    opacity: 0.5;
-    height: 50px;
-    transform: translateY(-50%);
-    background: rgba(0, 0, 0, .5);
-  }
-
-  .slider__control_show {
-    display: flex;
-  }
-
-  .slider__control:hover,
-  .slider__control:focus {
-    color: #fff;
-    text-decoration: none;
-    outline: 0;
-    opacity: .9;
-  }
-
-  .slider__control_left {
-    left: 0;
-  }
-
-  .slider__control_right {
-    right: 0;
-  }
-
-  .slider__control::before {
-    content: '';
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background: transparent no-repeat center center;
-    background-size: 100% 100%;
-  }
-
-  .slider__control_left::before {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-  }
-
-  .slider__control_right::before {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-  }
-
-  .slider_item_value{
-    position: absolute;
-    width: 240px;
-    height: 68px;
-    left: 1114px;
-    top: 2954px;
-    
-    font-family: Forum;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 28px;
-    line-height: 31px;
-    font-feature-settings: 'tnum' on, 'lnum' on;
-
-    color: #000000;
-}
-  .slider__item>div {
-    
-    height: 512px;
-    text-align: left;
-    font-family: 'Forum', cursive;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 28px;
-    line-height: 33px;
-    font-feature-settings: 'tnum' on, 'lnum' on;
-    background: #F3F3F3;
-  }
-   /* End Slider*/
 
 
 
@@ -146,566 +41,199 @@ body{
 .introrecta{
     /* Rectangle 4 шапка */
     
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-    height: 152px;
-    left: 0px;
-    top: 0px;
     
-    background: #C4C4C4;
+position: fixed;
+width: 182px;
+height: 60px;
+left: 80%;
+top: 5%;
+
+background: linear-gradient(180deg, #D7F3FF 0%, rgba(255, 255, 255, 0) 100%);
+mix-blend-mode: normal;
+border-radius: 30px;
     
     }
 
 .introtext {/* Помошь в получении вида на жительство */
 
+/* Ключи к */
 
-    z-index: 1;
 
-    position: fixed;
-    height: 131px;
-    left: 25%;
-    right: 20%;
-    top: -7%;
+    position: absolute;
+    
+    left: 20%;
+    top: 0.5%;
 
     font-family: Forum;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
-    line-height: 100px;
+    line-height: 0.3%;
     /* or 278% */
 
-    font-feature-settings: 'tnum' on, 'lnum' on, 'ss01' on, 'ss03' on, 'dnom' on, 'numr' on;
+    font-feature-settings: 'tnum' on, 'lnum' on;
 
     color: #000000;
-
-    mix-blend-mode: normal;
         }
 
 /*intro*/
 .intro {
-    margin: 1.3%;
-    position: absolute;
-    width: 99%;
-    height: 985px;
-    left: -21px;
-    top: 121px;
     
-    background: url(Images/firstimwhitarrow.jpg);
+    position: absolute;
+    width: 1440px;
+    height: 894px;
+    left: 0px;
+    top: -1%;
+
+    
+    background: url(Images/IMG_2887.JPG);
     background-size: cover;
     mix-blend-mode: normal;
+    object-fit: cover;
+    
 }
 
 .azorestext{
   
-/* Азорских островах */
-
-    z-index: 1;
-
-    position: fixed;
-    width: 456px;
-    height: 75px;
-    left: 35%;
-    right: 25%;
-    top: 1%;
-
+    position: absolute;
+    left: 26%;
+    top: 0.1%;
+    
+    
     font-family: Forum;
     font-style: normal;
     font-weight: normal;
     font-size: 48px;
     line-height: 100px;
     /* or 208% */
+    
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    
+    color: #000000;    
+}
+.azortext2{
+    position: absolute;
+    width: 839px;
+   
+    left: 35%;
+    top: 2%;
+
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+   
+    /* or 278% */
 
     font-feature-settings: 'tnum' on, 'lnum' on;
 
     color: #000000;
+}
+
+.companytext{
+
+position: absolute;
+width: 1085px;
+height: 186px;
+left: 1%;
+top: 12%;
+
+font-family: Forum;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 40px;
+font-feature-settings: 'tnum' on, 'lnum' on, 'ss01' on, 'ss03' on, 'dnom' on, 'numr' on;
+
+color: #FFFFFF;
 }
 .contactlink{
     /* Contact */
     z-index: 1;
 
     position: fixed;
-    width: 216px;
-    height: 92px;
-    right: -2%;
-    top: 7%;
+    left: 82%;
+    right: 8%;
+    top: 3%;
+    bottom: 97.44%;
     
 }
 .phonimg{
     z-index: 1;
-
+    border:none;
     position: fixed;
-    width: 49px;
+    width: 3.2%;
     height: 48px;
-    right: 5%;
-    top: 5%;
+    right: 8%;
+    top: 5.3%;
     
     background: url("Images/phone.png");
     background-size: cover;
     mix-blend-mode: normal;
 }
 
-/* Португальская компания Feliz terra LDA Под руководством Dr. Norbrto Pereira Botelho специались в области земельного и имущиственного права Азор окажет помошь если вы решили обосноваться на Азорах.*/
-.companytext
-{
-    position: absolute;
-    width: 833px;
-    height: 226px;
-    left: 51px;
-    top: 1158px;
-    
-    font-family: Forum;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 40px;
-    font-feature-settings: 'tnum' on, 'lnum' on, 'ss01' on, 'ss03' on, 'dnom' on, 'numr' on;
-    
-    color: #000000;
-}
 
-.norbertoimg{
-  
-    
-    position: absolute;
-    left: 968px;
-    right: 25px;
-    top: 1097px;
-    bottom: 4449px;
-
-    
-    background: url(images/Norberto2.jpg);
-    background-size: cover;
-    mix-blend-mode: normal;
-}
-.whaytext{
-/* Почему Португалия, почему Азоры. */
-
-    position: absolute;
-    width: 721px;
-    height: 228px;
-    left: 358px;
-    top: 1451px;
-
-    font-family: Forum;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 53px;
-    font-feature-settings: 'tnum' on, 'lnum' on;
-
-    color: #000000;
-}
-
-
-
-.backgroudunderimg1{/* Rectangle 1 */
-    position: absolute;
-    width: 1378px;
-    height: 512px;
-    left: 29px;
-    top: 1573px;
-
-    background: #F3F3F3;
-}
-.firstristext{/* 1. Ближайшие источник загрязнение находится в 1500 км, свежий океанский воздух, незначительные колебания средней годовой температуры, */
-    z-index: 1;
-    position: absolute;
-    width: 452px;
-    height: 171px;
-    left: 918px;
-    top: 1858px;
-
-    font-family: Forum;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 40px;
-    font-feature-settings: 'tnum' on, 'lnum' on;
-    
-    color: #000000;
-}
-.frimg1{/* 19 1 */
-
-
-    position: absolute;
-    width: 768px;
-    height: 559px;
-    left: 341px;
-    top: 1912px;
-    
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.17) 79.69%, #DFC8C7 95.83%), url(Images/19.jpeg);
-}
-
-.secondrtext{/* 2. Безопасная флора и фауна. Наименьшая в Португалии плотность заражения ковид 19. */
-
-
-    position: absolute;
-    width: 1000px;
-    height: 28px;
-    left: 267px;
-    top: 2521px;
-    
-    font-family: 'Forum', cursive;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    /* identical to box height */
-    
-    font-feature-settings: 'tnum' on, 'lnum' on;
-    
-    color: #000000;
-    
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.terthrtext{/* 3.Свежие натуральные продукты круглый год */
-
-
-    position: absolute;
-    width: 480px;
-    height: 28px;
-    left: 498px;
-    top: 2571px;
-    
-    font-family: 'Forum', cursive;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    /* identical to box height */
-    
-    font-feature-settings: 'tnum' on, 'lnum' on;
-    
-    color: #000000;
-    
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.forthrbg{/* Rectangle 3 */
-
-
-    position: absolute;
-    width: 732px;
-    height: 479px;
-    left: 353px;
-    top: 2633px;
-    
-    background: rgba(196, 196, 196, 0.5);
-    border-radius: 18px;
-}
-.forthrimg{/* 2020-10-07122720 1 */
-
-
-    position: absolute;
-    width: 689px;
-    height: 429px;
-    left: 374px;
-    top: 2655px;
-    
-   /* background: linear-gradient(180deg, rgba(255, 255, 255, 0.32) 65.64%, #DDC1BF 95.83%), url(Images/destinations-map-_-ponta-delgada-airport-_-google-chrome-2018_02_07-05.35.47.png);*/
-}
-.forthrtext{
-    /* 4.Удобное сообщение с континентом, регулярные прямые рейсы: Лондон, Дюссельдорф, Лиссабон, Порту, Торонто, Ванкувер, Женева. */
+.whattext{
+/* Что вы получаете вместе с удивительной красоты природой Азорских островов, океанским воздухом, термальными источниками, пляжами для купания, и серфинга?... */
 
 
 position: absolute;
-width: 636px;
-height: 43px;
-left: 402px;
-top: 2998px;
+left: 5.08%;
+top: 20.27%;
+right: 50%;
 
-font-family: 'Forum', cursive;
+
+font-family: Forum;
 font-style: normal;
 font-weight: normal;
-font-size: 24px;
-line-height: 28px;
+font-size: 48px;
+line-height: 53px;
 font-feature-settings: 'tnum' on, 'lnum' on;
 
 color: #000000;
-
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.otherrtext{/* 5. Сниженные налоговые ставки в сравнении с континентальной Португалией, льготный таможенный режим для импорта и экспорта товаров в/из США, Канады. 6. Есть множество программ по субсидированную различных активностей от ЕС на Азорах . 7. Терминальные воды, чистейшая питьевая вода, пляжи для купания и серфинга, пляжи с терминальными источниками, люминисцирующая зелень круглый год. 8. Географически между Америкой и Европой, но политически европа. 9. Отсутствие нелегальных эмигрантов. */
 
 
+.naicherimg{
     position: absolute;
-    width: 1285px;
-    height: 436px;
-    left: 68px;
-    top: 3125px;
+    width: 100% ;
+    height: 50% ;
     
-    font-family: 'Forum', cursive;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 28px;
-    line-height: 33px;
-    font-feature-settings: 'tnum' on, 'lnum' on;
     
-    color: #000000;
+    background: url("Images/IMG_2986.JPG");
+    background-size: cover;
+    mix-blend-mode: normal;
+}
+.oucenimg{
+    position: absolute;
+    width: 50% ;
+    height: 50% ;
+    
+    background: url("Images/19.jpeg");
+    background-size: cover;
+    mix-blend-mode: normal;
 }
 
-.whatwedotext{
-    /* Наши услуги */
-
-
-    position: absolute;
-    width: 282px;
-    height: 77px;
-    left: 578px;
-    top: 2137px;
-
-    font-family: Forum;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 53px;
-    font-feature-settings: 'tnum' on, 'lnum' on;
-
-    color: #000000;
-
-    }
 
     /* когда чекбокс активен показываем блоки с содержанием  */
     .texthide {
         display: none; 
-        padding: 10px; 
-        background: #efefef;
-        
+        padding: 30px; 
+        height: 300px;
+        color: #D7F3FF;
+        margin: 1% 2% 2% ;
+        left: 100%;
     }
     
 
     /* demo контейнер */
     .demo {
-        
-    position: absolute;
-    width: 1286px;
-    height: 41px;
-    left: 71px;
-    font-size: 24px;
-    top: 2150px;
-    margin: 5% 2% 2%;
-    
-    }
-
-
-.textwhay{/* Помимо вышеперечисленного, мы може */
-
-    position: absolute;
-    width: 953px;
-    height: 257px;
-    left: 108px;
-    top: 3250px;
-    
-    font-family: Forum;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 28px;
-    line-height: 31px;
-    font-feature-settings: 'tnum' on, 'lnum' on;
-    
-    color: #000000;
-    
-    }
-.imgfogo{/* Огонь */
-
-
-    position: absolute;
-    width: 598px;
-    height: 562px;
-    left: 71px;
-    top: 3606px;
-    
-    background: url(Images/fogo.jpg);
-    background-size: cover;
-    mix-blend-mode: normal;
-}
-    
-.imgcmida{
-
-        /*бургер */
-
-
-    position: absolute;
-    width: 569px;
-    height: 562px;
-    left: 738px;
-    top: 3606px;
-    background: url(Images/comida.jpg);
-    background-size: cover;
-    mix-blend-mode: normal;
-}
-.contactteleport{
-    position: absolute;
-    width: 190px;
-    height: 100px;
-    left: 624px;
-    top: 4087px;  
-    
-}
-
-.contact{
-    /* Контакты */
-
-
-    position: absolute;
-    width: 190px;
-    height: 100px;
-    left: 624px;
-    top: 4222px;
-
-    font-family: 'Forum', cursive;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 56px;
-    font-feature-settings: 'tnum' on, 'lnum' on;
-
-    color: #000000;
-}
-.mailtext{
-    /* По всем интересующим вас вопросам вы можете обратиться по данному адресу электронной почты. */
-    position: absolute;
-    width: 609px;
-    height: 97px;
-    left: 87px;
-    top: 4341px;
-
-    font-family: Forum;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 28px;
-    line-height: 31px;
-    font-feature-settings: 'tnum' on, 'lnum' on;
-
-    color: #000000;
-}
-.mailboxtex{
-    /* Email: norberto@feliz-terra.com */
-
-
-    position: absolute;
-    width: 385px;
-    height: 35px;
-    left: 526px;
-    top: 4457px;
-
-    font-family: Forum;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 28px;
-    line-height: 31px;
-    font-feature-settings: 'tnum' on, 'lnum' on;
-
-    color: #000000;
-}
-
-
-.contimemail{
-    position: absolute;
-    width: 100px;
-    height: 97px;
-    left: 680px;
-    top: 4511px;
-
-    background: url(Images/emailim.png);
-    background-size: cover;
-    mix-blend-mode: normal;
-}
-/*
-
-.contimfb{
-
-
-
-    position: absolute;
-    width: 70px;
-    height: 73px;
-    left: 1136px;
-    top: 4578px;
-    background: url(Images/Faceboockimg.png);
-    background-size: cover;
-    mix-blend-mode: normal;
-    }
-
-.contimig{
-    position: absolute;
-    width: 70px;
-    height: 71px;
-    left: 1207px;
-    top: 4580px;
-
-    
-    background: url(Images/instaicon.png);
-    background-size: cover;
-    mix-blend-mode: normal;
-}
-
-
-
-.contimvk{
-
-    position: absolute;
-    width: 67px;
-    height: 71px;
-    left: 1279px;
-    top: 4580px;
-    
-    background: url(Images/vkicon.png);
-    background-size: cover;
-    mix-blend-mode: normal;
-}*/
-/* Style the buttons that are used to open and close the accordion panel */
-.accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-    position: absolute;
-    width: 190px;
-    height: 100px;
-    left: 624px;
-    top: 4787px;
-  }
-  
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active, .accordion:hover {
-    background-color: #ccc;
-  }
-  
-  /* Style the accordion panel. Note: hidden by default */
-  .panel {
-    padding: 0 18px;
-    background-color: white;
-    display: none;
-    overflow: hidden;
-  }
-    /*Цена текст*/
-    .price{
         position: absolute;
-        width: 240px;
-        height: 68px;
-        left: 1114px;
-        top: 2954px;
-        
-        font-family: Forum;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 28px;
-        line-height: 31px;
-        
-        font-feature-settings: 'tnum' on, 'lnum' on;
-        
-        color: #000000;
     }
-    
+
+
+
    
     /*обтекание */  
       .rightimg  {
@@ -736,12 +264,56 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     .container{
         width:540px
     }
+    .introtext {/* Помошь в получении вида на жительство */
+
+        /* Ключи к */
+        
+        
+            position: absolute;
+           
+            left: 20%;
+            top: 0.5%;
+        
+            font-family: Forum;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 0.2%;
+            
+        
+            font-feature-settings: 'tnum' on, 'lnum' on;
+        
+            color: #000000;
+                }
 }
-@media screen and (max-widht: 570px){
+@media screen and (min-widht: 570px){
     .container{
-    width: 100%;
+        
+
+    width: 570px;
     padding: 0 15px;
+    
     }
+    .introrecta{
+        /* Rectangle 4 шапка */
+        
+        
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    left: 80%;
+    top: 5%;
+    
+    background: linear-gradient(180deg, #D7F3FF 0%, rgba(255, 255, 255, 0) 100%);
+    mix-blend-mode: normal;
+    border-radius: 30px;
+        
+        }
+
+    .introtext {
+                font-size: 14px;
+                
+                    }
 
 }
 

@@ -1,9 +1,9 @@
 $(function(){
     $('.demo .hide').hide();
-        $a = $('.demo label');
+        $a = $('label');
         $a.on('click', function(event) {
         event.preventDefault();
-        $a.not(this).next().slideUp(600);
-        $(this).next().slideToggle(600);
+        $a.not(this).next().slideUp(200);
+        $(this).next().slideToggle(300);
     });
 });

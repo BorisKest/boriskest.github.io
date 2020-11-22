@@ -20,6 +20,9 @@ body{
     height: 4722px;
     background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
     opacity: 0.8;
+    background: url(/Images/mainBG2.jpg);
+    background-size: cover;
+    mix-blend-mode: normal;
 }
 
 
@@ -38,21 +41,6 @@ body{
     max-width: 1437px;
     margin: 0 auto;
 }
-.introrecta{
-    /* Rectangle 4 шапка */
-    
-    
-position: fixed;
-width: 182px;
-height: 60px;
-left: 80%;
-top: 5%;
-
-background: linear-gradient(180deg, #D7F3FF 0%, rgba(255, 255, 255, 0) 100%);
-mix-blend-mode: normal;
-border-radius: 30px;
-    
-    }
 
 .introtext {/* Помошь в получении вида на жительство */
 
@@ -76,16 +64,16 @@ border-radius: 30px;
     color: #000000;
         }
 
-/*intro*/
+/*intro картинка*/
 .intro {
     
     position: absolute;
-    width: 1440px;
-    height: 894px;
+    width: 100%;
+    height: 20%;
     left: 0px;
     top: -1%;
 
-    
+    align-items: center;
     background: url(Images/IMG_2887.JPG);
     background-size: cover;
     mix-blend-mode: normal;
@@ -111,9 +99,8 @@ border-radius: 30px;
     
     color: #000000;    
 }
-.azortext2{
+.azortext2{/*Дом тишина и все что вам может понадобиться */
     position: absolute;
-    width: 839px;
    
     left: 35%;
     top: 2%;
@@ -133,7 +120,7 @@ border-radius: 30px;
 .companytext{
 
 position: absolute;
-width: 1085px;
+
 height: 186px;
 left: 1%;
 top: 12%;
@@ -147,23 +134,13 @@ font-feature-settings: 'tnum' on, 'lnum' on, 'ss01' on, 'ss03' on, 'dnom' on, 'n
 
 color: #FFFFFF;
 }
-.contactlink{
-    /* Contact */
-    z-index: 1;
 
-    position: fixed;
-    left: 82%;
-    right: 8%;
-    top: 3%;
-    bottom: 97.44%;
-    
-}
 .phonimg{
     z-index: 1;
     border:none;
     position: fixed;
-    width: 3.2%;
-    height: 48px;
+    width: 6vh;
+    height: 6vh;
     right: 8%;
     top: 5.3%;
     
@@ -178,10 +155,10 @@ color: #FFFFFF;
 
 
 position: absolute;
-left: 5.08%;
-top: 20.27%;
-right: 50%;
-
+left: 8.21%;
+right: 3.27%;
+top: 22.05%;
+bottom: 67.53%;
 
 font-family: Forum;
 font-style: normal;
@@ -216,23 +193,202 @@ color: #000000;
 }
 
 
-    /* когда чекбокс активен показываем блоки с содержанием  */
-    .texthide {
-        display: none; 
-        padding: 30px; 
-        height: 300px;
-        color: #D7F3FF;
-        margin: 1% 2% 2% ;
-        left: 100%;
-    }
-    
+   
 
+
+
+/*иноформация в конце */  
+.bgform1{
+    position: absolute;
+    left: 2.78%;
+    right:3.5%;
+    top: 43.68%;
+    bottom: 31.37%;
+
+    background: rgba(243, 243, 243, 0.336);
+}
+.textsecsess{
+    position: absolute;
+    left: 3.86%;
+    right: 3.31%;
+    top: 45.2%;
+    bottom: 45.37%;
+
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 42px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    color: #000000;
+}
+
+.textwehelp{
+    
+position: absolute;
+width: 656px;
+height: 71px;
+left: 114px;
+top: 3223px;
+
+font-family: Forum;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 53px;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+color: #000000;
+}
+.textinform{
+    
+position: absolute;
+width: 1185px;
+height: 674px;
+left: 114px;
+top: 3333px;
+
+font-family: Forum;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 31px;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+color: #000000;
+
+
+}
+/*инфомация в конце*/
+
+
+/*Контакты*/
+.contcactbg{
+    position: absolute;
+    width: 688px;
+    height: 499px;
+    left: 51px;
+    top: 4065px;
+
+    background: #F3F3F3;
+}
+
+.contacttext1{
+    position: absolute;
+    width: 190px;
+    height: 100px;
+    left: 77px;
+    top: 4102px;
+    
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 53px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    
+    color: #000000;
+}
+.contacttext2{
+    position: absolute;
+    width: 609px;
+    height: 97px;
+    left: 77px;
+    top: 4163px;
+    
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 31px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    
+    color: #000000;
+}
+.contactemail{
+    position: absolute;
+    width: 385px;
+    height: 35px;
+    left: 77px;
+    top: 4297px;
+    
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 31px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    
+    color: #000000;
+}
+.contactphonetext{
+    position: absolute;
+    width: 524px;
+    height: 37px;
+    left: 77px;
+    top: 4413px;
+
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 31px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    color: #000000;
+}
+.contacthpone{
+    position: absolute;
+    width: 297px;
+    height: 39px;
+    left: 77px;
+    top: 4512px;
+    
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 31px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    
+    color: #000000;
+}
+.mailimg{
+    position: absolute;
+    width: 99px;
+    height: 97px;
+    left: 657px;
+    top: 4599px;
+
+    background: url(Images/emailim.png);
+    background-size: cover;
+    mix-blend-mode: normal;
+}
+/*контакты*/
+
+/*Скрывающаяся часть */
+ /* когда чекбокс активен показываем блоки с содержанием  */
+ .texthide {
+    display: none; 
+    padding: 10px; 
+    background: #efefef;
+    
+}
     /* demo контейнер */
     .demo {
-        position: absolute;
+        
+    position: absolute;
+    width: 1286px;
+    height: 41px;
+    left: 71px;
+    font-size: 24px;
+    top: 2150px;
+    margin: 5% 2% 2%;
+    
     }
 
-
+/*скрывающаяся часть*/
 
    
     /*обтекание */  
@@ -242,7 +398,113 @@ color: #000000;
         margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
        }
   
-   
+
+/*Slider*/
+
+.slider {
+    
+    position: absolute;
+    width: 98%;
+    height: 512px;
+    left: 29px;
+    top: 28%;
+    overflow: hidden;
+  }
+
+  .slider__wrapper {
+    display: flex;
+    transition: transform 0.6s ease;
+  }
+
+  .slider__item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .slider__control {
+    position: absolute;
+    top: 50%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    color: #fff;
+    text-align: center;
+    opacity: 0.5;
+    height: 50px;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, .5);
+  }
+
+  .slider__control_show {
+    display: flex;
+  }
+
+  .slider__control:hover,
+  .slider__control:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    opacity: .9;
+  }
+
+  .slider__control_left {
+    left: 0;
+  }
+
+  .slider__control_right {
+    right: 0;
+  }
+
+  .slider__control::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+  }
+
+  .slider__control_left::before {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  }
+
+  .slider__control_right::before {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  }
+
+  .slider_item_value{
+    
+    position: absolute;
+    width: 240px;
+    height: 100px;
+    left: 1114px;
+    top: 2954px;
+    
+
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 31px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    color: #000000;
+}
+  .slider__item>div {
+    
+    height: 520px;
+    text-align: left;
+    font-family: 'Forum', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    background: #F3F3F3;
+  }
+   /* End Slider*/
+
 /*Адаптация*/
 
 @media screen and (max-widht: 1200px){
@@ -268,7 +530,7 @@ color: #000000;
 
         /* Ключи к */
         
-        
+            width:540px;
             position: absolute;
            
             left: 20%;
@@ -277,7 +539,7 @@ color: #000000;
             font-family: Forum;
             font-style: normal;
             font-weight: normal;
-            font-size: 14px;
+            font-size: 10px;
             line-height: 0.2%;
             
         
@@ -286,7 +548,7 @@ color: #000000;
             color: #000000;
                 }
 }
-@media screen and (min-widht: 570px){
+@media screen and (max-widht: 570px){
     .container{
         
 
@@ -297,7 +559,7 @@ color: #000000;
     .introrecta{
         /* Rectangle 4 шапка */
         
-        
+    width:540px;
     position: fixed;
     width: 60px;
     height: 60px;
@@ -311,9 +573,8 @@ color: #000000;
         }
 
     .introtext {
-                font-size: 14px;
-                
-                    }
+     font-size: 14px;
+      }
 
 }
 

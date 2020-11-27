@@ -1,11 +1,6 @@
 body{ 
-
-    
     color: #fff;
     height: 3000px;
-
-
-
     margin: 0;
     font-family: 'Forum', cursive;
 
@@ -18,8 +13,6 @@ body{
     position: relative;
     width: auto;
     height: 4722px;
-    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
-    opacity: 0.8;
     background: url(/Images/mainBG2.jpg);
     background-size: cover;
     mix-blend-mode: normal;
@@ -31,7 +24,6 @@ body{
    *:after{
         box-sizing: border-box;
     }
-    
     h1 ,h2 ,h3 ,h4 ,h5 ,h6 {
         margin: 0;
     }
@@ -134,7 +126,9 @@ font-feature-settings: 'tnum' on, 'lnum' on, 'ss01' on, 'ss03' on, 'dnom' on, 'n
 
 color: #FFFFFF;
 }
-
+img,a{
+    border:none;
+}
 .phonimg{
     z-index: 1;
     border:none;
@@ -148,7 +142,6 @@ color: #FFFFFF;
     background-size: cover;
     mix-blend-mode: normal;
 }
-
 
 .whattext{
 /* Что вы получаете вместе с удивительной красоты природой Азорских островов, океанским воздухом, термальными источниками, пляжами для купания, и серфинга?... */
@@ -226,11 +219,11 @@ color: #000000;
 
 .textwehelp{
     
-position: absolute;
-width: 656px;
-height: 71px;
-left: 114px;
-top: 3223px;
+  position: absolute;
+  left: 7.93%;
+  right: 46.42%;
+  top: 68.25%;
+  bottom: 30.24%;
 
 font-family: Forum;
 font-style: normal;
@@ -264,6 +257,13 @@ color: #000000;
 
 
 /*Контакты*/
+.teleport{
+    position: absolute;
+    width: 688px;
+    height: 499px;
+    left: 51px;
+    top: 3800px;
+}
 .contcactbg{
     position: absolute;
     width: 688px;
@@ -369,6 +369,7 @@ color: #000000;
 
 /*Скрывающаяся часть */
  /* когда чекбокс активен показываем блоки с содержанием  */
+
  .texthide {
     display: none; 
     padding: 10px; 
@@ -378,10 +379,11 @@ color: #000000;
     /* demo контейнер */
     .demo {
         
-    position: absolute;
-    width: 1286px;
-    height: 41px;
-    left: 71px;
+      position: absolute;
+      width: 1208px;
+      height: 58.74px;
+      left: 113px;
+      top: 2376px;
     font-size: 24px;
     top: 2150px;
     margin: 5% 2% 2%;
@@ -504,79 +506,500 @@ color: #000000;
     background: #F3F3F3;
   }
    /* End Slider*/
-
-/*Адаптация*/
-
-@media screen and (max-widht: 1200px){
-    .container{
-        width:1140px
-    }
+/* адаптивная верстка*/
+@media screen and (max-width : 1024px) {
+  body {
+    font-size:1.5em;
 }
-@media screen and (max-widht: 1199px){
-    .container{
-        width:960px
-    }
-}
-@media screen and (max-widht: 991px){
-    .container{
-        width:720px
-    }
-}
-@media screen and (max-widht: 767px){
-    .container{
-        width:540px
-    }
-    .introtext {/* Помошь в получении вида на жительство */
 
-        /* Ключи к */
+h2 {
+    font-size:2.5em;
+}
+  ;
+}
+@media screen and (max-width : 800px) {
+  
+}
+@media screen and (max-width : 420px) {
+  .introtext {/* Помошь в получении вида на жительство */
+
+    /* Ключи к */
+    
+    
+        position: absolute;
         
-            width:540px;
-            position: absolute;
-           
-            left: 20%;
-            top: 0.5%;
+        left: 20%;
+        top: 0.5%;
+    
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 0.3%;
+        /* or 278% */
+    
+        font-feature-settings: 'tnum' on, 'lnum' on;
+    
+        color: #000000;
+            }
+    
+    /*intro картинка*/
+    .intro {
         
-            font-family: Forum;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 10px;
-            line-height: 0.2%;
+        position: absolute;
+        width: 100%;
+        height: 20%;
+        left: 0px;
+        top: -1%;
+    
+        align-items: center;
+        background: url(Images/IMG_2887.JPG);
+        background-size: cover;
+        mix-blend-mode: normal;
+        object-fit: cover;
+        
+    }
+    
+    .azorestext{
+      
+        position: absolute;
+        left: 26%;
+        top: 0.1%;
+        
+        
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 100px;
+        /* or 208% */
+        
+        font-feature-settings: 'tnum' on, 'lnum' on;
+        
+        color: #000000;    
+    }
+    .azortext2{/*Дом тишина и все что вам может понадобиться */
+        position: absolute;
+       
+        left: 35%;
+        top: 2%;
+    
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+       
+        /* or 278% */
+    
+        font-feature-settings: 'tnum' on, 'lnum' on;
+    
+        color: #000000;
+    }
+    
+    .companytext{
+    
+    position: absolute;
+    
+    height: 186px;
+    left: 1%;
+    top: 12%;
+    
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 40px;
+    font-feature-settings: 'tnum' on, 'lnum' on, 'ss01' on, 'ss03' on, 'dnom' on, 'numr' on;
+    
+    color: #FFFFFF;
+    }
+    img,a{
+        border:none;
+    }
+    .phonimg{
+        z-index: 1;
+        border:none;
+        position: fixed;
+        width: 6vh;
+        height: 6vh;
+        right: 8%;
+        top: 5.3%;
+        
+        background: url("Images/phone.png");
+        background-size: cover;
+        mix-blend-mode: normal;
+    }
+    
+    .whattext{
+    /* Что вы получаете вместе с удивительной красоты природой Азорских островов, океанским воздухом, термальными источниками, пляжами для купания, и серфинга?... */
+    
+    
+    position: absolute;
+    left: 8.21%;
+    right: 3.27%;
+    top: 22.05%;
+    bottom: 67.53%;
+    
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 53px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    
+    color: #000000;
+    }
+    
+    
+    
+    .naicherimg{
+        position: absolute;
+        width: 100% ;
+        height: 50% ;
+        
+        
+        background: url("Images/IMG_2986.JPG");
+        background-size: cover;
+        mix-blend-mode: normal;
+    }
+    .oucenimg{
+        position: absolute;
+        width: 50% ;
+        height: 50% ;
+        
+        background: url("Images/19.jpeg");
+        background-size: cover;
+        mix-blend-mode: normal;
+    }
+    
+    
+       
+    
+    
+    
+    /*иноформация в конце */  
+    .bgform1{
+        position: absolute;
+        left: 2.78%;
+        right:3.5%;
+        top: 43.68%;
+        bottom: 31.37%;
+    
+        background: rgba(243, 243, 243, 0.336);
+    }
+    .textsecsess{
+        position: absolute;
+        left: 3.86%;
+        right: 3.31%;
+        top: 45.2%;
+        bottom: 45.37%;
+    
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 38px;
+        line-height: 42px;
+        font-feature-settings: 'tnum' on, 'lnum' on;
+    
+        color: #000000;
+    }
+    
+    .textwehelp{
+        
+    position: absolute;
+    width: 656px;
+    height: 71px;
+    left: 114px;
+    top: 32px;
+    
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 53px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    
+    color: #000000;
+    }
+    .textinform{
+        
+    position: absolute;
+    width: 1185px;
+    height: 674px;
+    left: 114px;
+    top: 3333px;
+    
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 31px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    
+    color: #000000;
+    
+    
+    }
+    /*инфомация в конце*/
+    
+    
+    /*Контакты*/
+    .teleport{
+        position: absolute;
+        width: 688px;
+        height: 499px;
+        left: 51px;
+        top: 3800px;
+    }
+    .contcactbg{
+        position: absolute;
+        width: 688px;
+        height: 499px;
+        left: 51px;
+        top: 4065px;
+    
+        background: #F3F3F3;
+    }
+    
+    .contacttext1{
+        position: absolute;
+        width: 190px;
+        height: 100px;
+        left: 77px;
+        top: 4102px;
+        
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 53px;
+        font-feature-settings: 'tnum' on, 'lnum' on;
+        
+        color: #000000;
+    }
+    .contacttext2{
+        position: absolute;
+        width: 609px;
+        height: 97px;
+        left: 77px;
+        top: 4163px;
+        
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 31px;
+        font-feature-settings: 'tnum' on, 'lnum' on;
+        
+        color: #000000;
+    }
+    .contactemail{
+        position: absolute;
+        width: 385px;
+        height: 35px;
+        left: 77px;
+        top: 4297px;
+        
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 31px;
+        font-feature-settings: 'tnum' on, 'lnum' on;
+        
+        color: #000000;
+    }
+    .contactphonetext{
+        position: absolute;
+        width: 524px;
+        height: 37px;
+        left: 77px;
+        top: 4413px;
+    
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 31px;
+        font-feature-settings: 'tnum' on, 'lnum' on;
+    
+        color: #000000;
+    }
+    .contacthpone{
+        position: absolute;
+        width: 297px;
+        height: 39px;
+        left: 77px;
+        top: 4512px;
+        
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 31px;
+        font-feature-settings: 'tnum' on, 'lnum' on;
+        
+        color: #000000;
+    }
+    .mailimg{
+        position: absolute;
+        width: 99px;
+        height: 97px;
+        left: 657px;
+        top: 4599px;
+    
+        background: url(Images/emailim.png);
+        background-size: cover;
+        mix-blend-mode: normal;
+    }
+    /*контакты*/
+    .conteinerprice{
+      position: absolute;
+      left: 5.78%;
+      right: 5.5%;
+      top: 46.36%;
+      bottom: 35.68%;
+    }
+    /*Скрывающаяся часть */
+     /* когда чекбокс активен показываем блоки с содержанием  */
+    
+     .texthide {
+        display: none; 
+        padding: 10px; 
+        background: #efefef;
+        
+    }
+        /* demo контейнер */
+        .demo {
             
-        
-            font-feature-settings: 'tnum' on, 'lnum' on;
-        
-            color: #000000;
-                }
-}
-@media screen and (max-widht: 570px){
-    .container{
-        
-
-    width: 570px;
-    padding: 0 15px;
-    
-    }
-    .introrecta{
-        /* Rectangle 4 шапка */
-        
-    width:540px;
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    left: 80%;
-    top: 5%;
-    
-    background: linear-gradient(180deg, #D7F3FF 0%, rgba(255, 255, 255, 0) 100%);
-    mix-blend-mode: normal;
-    border-radius: 30px;
+          position: absolute;
+          left: 7.86%;
+          top: 50.2%;
+         
+          
+        font-size: 24px;
+        top: 2150px;
+        margin: 5% 2% 2%;
         
         }
-
-    .introtext {
-     font-size: 14px;
+    
+    /*скрывающаяся часть*/
+    
+       
+        /*обтекание */  
+          .rightimg  {
+            margin: 1% 10% 20%;
+            float: left; /* Выравнивание по правому краю  */ 
+            margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+           }
+      
+    
+    /*Slider*/
+    
+    .slider {
+        
+        position: absolute;
+        width: 98%;
+        height:100vh;
+        left: 29px;
+        top: 28%;
+        overflow: hidden;
       }
-
+    
+      .slider__wrapper {
+        display: flex;
+        transition: transform 0.6s ease;
+      }
+    
+      .slider__item {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+    
+      .slider__control {
+        position: absolute;
+        top: 50%;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        color: #fff;
+        text-align: center;
+        opacity: 0.5;
+        height: 50px;
+        transform: translateY(-50%);
+        background: rgba(0, 0, 0, .5);
+      }
+    
+      .slider__control_show {
+        display: flex;
+      }
+    
+      .slider__control:hover,
+      .slider__control:focus {
+        color: #fff;
+        text-decoration: none;
+        outline: 0;
+        opacity: .9;
+      }
+    
+      .slider__control_left {
+        left: 0;
+      }
+    
+      .slider__control_right {
+        right: 0;
+      }
+    
+      .slider__control::before {
+        content: '';
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background: transparent no-repeat center center;
+        background-size: 100% 100%;
+      }
+    
+      .slider__control_left::before {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+      }
+    
+      .slider__control_right::before {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+      }
+    
+      .slider_item_value{
+        
+        position: absolute;
+        width: 240px;
+        height: 100px;
+        left: 1114px;
+        top: 2954px;
+        
+    
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 31px;
+        font-feature-settings: 'tnum' on, 'lnum' on;
+    
+        color: #000000;
+    }
+      .slider__item>div {
+        
+        height: 10vh;
+        text-align: left;
+        font-family: 'Forum', cursive;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 33px;
+        font-feature-settings: 'tnum' on, 'lnum' on;
+        background: #F3F3F3;
+      }
 }
+
 
 
 

@@ -9,10 +9,10 @@ body{
     color: #000000;
     /* Desktop - 1 */
 
-   /* position: relative;
+    position: relative;
     width: auto;
     height: 4922px;
-    background: url(/Images/mainBG2.jpg);
+    /*background: url(/Images/mainBG2.jpg);
     background-size: cover;
     mix-blend-mode: normal;*/
 }

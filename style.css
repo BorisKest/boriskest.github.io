@@ -40,13 +40,14 @@ body{
 
     position: absolute;
     
-    left: 20%;
+    left: 7.65%;
     top: 0.5%;
 
     font-family: Forum;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
+    line-height: 37px;
     line-height: 0.3%;
     /* or 278% */
 
@@ -72,34 +73,18 @@ body{
     
 }
 
-.azorestext{
-  
-    position: absolute;
-    left: 26%;
-    top: 0.1%;
-    
-    
-    font-family: Forum;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 100px;
-    /* or 208% */
-    
-    font-feature-settings: 'tnum' on, 'lnum' on;
-    
-    color: #000000;    
-}
+
 .azortext2{/*Дом тишина и все что вам может понадобиться */
     position: absolute;
    
-    left: 35%;
-    top: 2%;
+    left: 7.65%;
+    top: 1%;
 
     font-family: Forum;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
+    line-height: 37px;
    
     /* or 278% */
 
@@ -110,20 +95,20 @@ body{
 
 .companytext{
 
-position: absolute;
+  position: absolute;
 
-height: 186px;
-left: 1%;
-top: 12%;
+  height: 186px;
+  left: 7.65%;
+  top: 12%;
 
-font-family: Forum;
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 40px;
-font-feature-settings: 'tnum' on, 'lnum' on, 'ss01' on, 'ss03' on, 'dnom' on, 'numr' on;
+  font-family: Forum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+    line-height: 37px;
+  font-feature-settings: 'tnum' on, 'lnum' on, 'ss01' on, 'ss03' on, 'dnom' on, 'numr' on;
 
-color: #FFFFFF;
+  color: #FFFFFF;
 }
 img,a{
     border:none;
@@ -134,7 +119,7 @@ img,a{
     position: fixed;
     width: 6vh;
     height: 6vh;
-    right: 8%;
+    right: 7.65%;
     top: 5.3%;
     
     background: url("Images/phone.png");
@@ -147,7 +132,7 @@ img,a{
 
 
   position: absolute;
-  left: 8.21%;
+  left: 7.65%;
   right: 3.27%;
   top: 20.05%;
   bottom: 67.53%;
@@ -155,8 +140,8 @@ img,a{
   font-family: Forum;
   font-style: normal;
   font-weight: normal;
-  font-size: 48px;
-  line-height: 53px;
+  font-size: 36px;
+    line-height: 37px;
   font-feature-settings: 'tnum' on, 'lnum' on;
 
   color: #000000;
@@ -166,10 +151,12 @@ img,a{
 .demo {
             
   position: absolute;
-  left: 7.86%;
+  left: 7.5%;
+  right: 3%;
   top: 47.2%;
   font-size: 24px;
   margin: 5% 2% 2%;
+  
   }
 
 .naicherimg{
@@ -209,7 +196,7 @@ img,a{
 }
 .textsecsess{
     position: absolute;
-    left: 3.86%;
+    left: 7.65%;
     right: 3.31%;
     top: 45.2%;
     bottom: 45.37%;
@@ -217,8 +204,8 @@ img,a{
     font-family: Forum;
     font-style: normal;
     font-weight: normal;
-    font-size: 38px;
-    line-height: 42px;
+    font-size: 36px;
+    line-height: 37px;
     font-feature-settings: 'tnum' on, 'lnum' on;
 
     color: #000000;
@@ -227,26 +214,26 @@ img,a{
 .textwehelp{
     
   position: absolute;
-  left: 7.93%;
+  left: 7.65%;
   right: 46.42%;
-  top: 68.25%;
-  bottom: 30.24%;
+  top: 70.25%;
+  bottom: 28.24%;
   
   font-family: Forum;
   font-style: normal;
   font-weight: normal;
-  font-size: 48px;
-  line-height: 53px;
+  font-size: 36px;
+    line-height: 37px;
   font-feature-settings: 'tnum' on, 'lnum' on;
   
   color: #000000;
 }.textinform{
         
   position: absolute;
-  left: 7.93%;
+  left: 7.65%;
   right: 9.6%;
-  top: 70.58%;
-  bottom: 15.14%;
+  top: 73.58%;
+  bottom: 12.14%;
 
 font-family: Forum;
 font-style: normal;
@@ -284,7 +271,7 @@ color: #000000;
 
 .contacttext1{
     position: absolute;
-    left: 5.36%;
+    left: 7.65%;
     right: 81.42%;
     top: 85.87%;
     bottom: 11.01%;
@@ -292,15 +279,15 @@ color: #000000;
     font-family: Forum;
     font-style: normal;
     font-weight: normal;
-    font-size: 48px;
-    line-height: 53px;
+    font-size: 36px;
+    line-height: 37px;
     font-feature-settings: 'tnum' on, 'lnum' on;
     
     color: #000000;
 }
 .contacttext2{
     position: absolute;
-    left: 7.17%;
+    left: 7.65%;
     right: 50.45%;
     top: 87.64%;
     bottom: 10.3%;
@@ -316,7 +303,7 @@ color: #000000;
 }
 .contactemail{
     position: absolute;
-    left: 5.36%;
+    left: 7.65%;
     right: 67.85%;
     top: 91%;
     bottom: 8.26%;
@@ -332,7 +319,7 @@ color: #000000;
 }
 .contactphonetext{
     position: absolute;
-    left: 5.36%;
+    left: 7.65%;
     right: 58.18%;
     top: 93.46%;
     bottom: 5.76%;
@@ -347,7 +334,7 @@ color: #000000;
 }
 .contacthpone{
     position: absolute;
-    left: 5.36%;
+    left: 7.65%;
     right: 73.97%;
     top: 95.55%;
     bottom: 3.62%;
@@ -362,10 +349,11 @@ color: #000000;
 }
 .mailimg{
     position: absolute;
-    left: 5.08%;
-    right: 88.03%;
-    top: 97.37%;
-    bottom: 0.57%;
+    left: 2.8%;
+    width: 5vh;
+    height: 5vh;
+    top: 90.8%;
+    
 
     background: url(Images/emailim.png);
     background-size: cover;
@@ -390,7 +378,7 @@ color: #000000;
     /*обтекание */  
       .rightimg  {
         width: 40%;
-        height: 100%;  
+        height: 90%;  
         margin: 1% 2% 5%;
         float: left; /* Выравнивание по правому краю  */ 
         background-size: cover;
@@ -429,7 +417,7 @@ color: #000000;
     width: 40px;
     color: #fff;
     text-align: center;
-    opacity: 0.5;
+    opacity: 0.9;
     height: 50px;
     transform: translateY(-50%);
     background: rgba(0, 0, 0, .5);
@@ -441,10 +429,10 @@ color: #000000;
 
   .slider__control:hover,
   .slider__control:focus {
-    color: #fff;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     outline: 0;
-    opacity: .9;
+    opacity: 1;
   }
 
   .slider__control_left {
@@ -502,6 +490,14 @@ color: #000000;
     font-feature-settings: 'tnum' on, 'lnum' on;
     background: #F3F3F3;
   }
+
+  .slider_h2{
+    font-size: 36px;
+    line-height: 37px;
+    margin: 2% 1% 1%;
+    font-size:1.5em;
+    font-size: 36px;
+  }
    /* End Slider*/
 /* адаптивная верстка*/
 @media screen and (max-width : 1024px) {
@@ -510,10 +506,16 @@ color: #000000;
 }
 
 h2 {
+  font-size: 36px;
+  line-height: 37px;
   margin: 2% 1% 1%;
     font-size:1.5em;
 }
-
+.slider__item>div {
+  margin: 1% 1% 1%;
+  font-size: 24px;
+  line-height: 25px;
+}
 .textsecsess,.textwehelp{
   font-size: 36px;
   line-height: 37px;
@@ -700,8 +702,8 @@ h2 {
       position: absolute;
       left: 7.93%;
       right: 9.6%;
-      top: 70.58%;
-      bottom: 15.14%;
+      top: 73.58%;
+      bottom: 12.14%;
     
     font-family: Forum;
     font-style: normal;
@@ -810,7 +812,11 @@ h2 {
     
     
     .slider_h2{
-      text-indent: 30px;
+      font-size: 36px;
+      line-height: 37px;
+      margin: 2% 1% 1%;
+      font-size:1.5em;
+      font-size: 36px;
     }
 }
 
@@ -988,8 +994,8 @@ h2 {
         position: absolute;
         left: 4.17%;
         right: 25.56%;
-        top: 65.88%;
-        bottom: 39.84%;
+        top: 68.88%;
+        bottom: 35.84%;
 
         font-size: 20px;
         line-height: 22px;
@@ -999,8 +1005,8 @@ h2 {
         position: absolute;
         left: 4.44%;
         right: 3.33%;
-        top: 68.16%;
-        bottom: 18.38%;
+        top: 70.40%;
+        bottom: 16.0%;
 
         font-family: Forum;
         font-style: normal;

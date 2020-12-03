@@ -2,45 +2,23 @@ body{
     color: #fff;
     margin: 0;
     font-family: 'Forum', cursive;
-
-
     font-size: 24px;
     line-height: 1.6;
     color: #000000;
     /* Desktop - 1 */
 
     width: auto;
-    height: 4922px;
+ 
     /*background: url(/Images/mainBG2.jpg);
     background-size: cover;
     mix-blend-mode: normal;*/
 }
-div{
-
-}
-
-
-
-   *:before,
-   *:after{
-        box-sizing: border-box;
-    }
-    h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,p{
-      margin: 1% 1% 1%;
-        }
-
-.container{
-    width: 100%;
-    max-width: 1437px;
-    margin: 0 auto;
-}
-
 .introtext {/* Помошь в получении вида на жительство */
 
 /* Ключи к */
 
 
-    position: relative;
+    position: absolute;
     left: 7.65%;
     top: 0.5%;
 
@@ -59,27 +37,16 @@ div{
 
 /*intro картинка*/
 .intro {
-  position: relative;
   left:0%;
   top: 0%;
   width: 100%;
   height: 100%;
     
-
-    align-items: center;
-    background: url(Images/IMG_2887.JPG);
-    background-size: cover;
-    mix-blend-mode: normal;
-    object-fit: cover;
-    
 }
-
-
 .azortext2{/*Дом тишина и все что вам может понадобиться */
-    
+    position: absolute;
     left: 7.65%;
-    top: 1%;
-
+    top: 3%;
     font-family: Forum;
     font-style: normal;
     font-weight: normal;
@@ -100,12 +67,9 @@ img,a{
 
 
 .whattext{
-/* Что вы получаете вместе с удивительной красоты природой Азорских островов, океанским воздухом, термальными источниками, пляжами для купания, и серфинга?... */
+/*  Текст компании и что вы получите*/
 
-    
-    
-
-
+  margin: 3% 7.65%;
   font-family: Forum;
   font-style: normal;
   font-weight: normal;
@@ -119,18 +83,25 @@ img,a{
 /* demo контейнер */
 .demo {
             
-  left: 7.5%;
-  right: 3%;
-  top: 47.2%;
+  margin: 3% 7.65%;
   font-size: 24px;
-  margin: 5% 2% 2%;
+ 
   
   }
+  /*Скрывающаяся часть */
+ /* когда чекбокс активен показываем блоки с содержанием  */
+
+ .texthide {
+  
+  display: none; 
+  padding: 10px; 
+  background: #efefef;
+  
+}
 
 .naicherimg{
     width: 100% ;
     height: 50% ;
-    
     
     background: url("Images/IMG_2986.JPG");
     background-size: cover;
@@ -160,10 +131,7 @@ img,a{
     background: rgba(243, 243, 243, 0.336);
 }
 .textsecsess{
-    left: 7.65%;
-    right: 3.31%;
-    top: 45.2%;
-    bottom: 45.37%;
+    margin: 3% 7.65%;
 
     font-family: Forum;
     font-style: normal;
@@ -177,11 +145,8 @@ img,a{
 
 .textwehelp{
     
-  left: 7.65%;
-  right: 46.42%;
-  top: 70.25%;
-  bottom: 28.24%;
   
+  margin: 3% 7.65%;
   font-family: Forum;
   font-style: normal;
   font-weight: normal;
@@ -192,19 +157,16 @@ img,a{
   color: #000000;
 }.textinform{
         
-  left: 7.65%;
-  right: 9.6%;
-  top: 73.58%;
-  bottom: 12.14%;
+  
+  margin: 3% 7.65%;
+  font-family: Forum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 31px;
+  font-feature-settings: 'tnum' on, 'lnum' on;
 
-font-family: Forum;
-font-style: normal;
-font-weight: normal;
-font-size: 28px;
-line-height: 31px;
-font-feature-settings: 'tnum' on, 'lnum' on;
-
-color: #000000;
+  color: #000000;
 
 
 }
@@ -214,27 +176,18 @@ color: #000000;
 
 
 /*Контакты*/
-.teleport{
-    width: 1px;
-    height: 1px;
-    left: 51px;
-    top: 3800px;
-}
+
 .contcactbg{
     width: 688px;
     height: 499px;
-    left: 51px;
-    top: 4065px;
+    
 
     background: #F3F3F3;
 }
 
 .contacttext1{
     
-    left: 7.65%;
-    right: 81.42%;
-    top: 85.87%;
-    bottom: 11.01%;
+    margin: 3% 7.65%;
     
     font-family: Forum;
     font-style: normal;
@@ -247,10 +200,7 @@ color: #000000;
 }
 .contacttext2{
    
-    left: 7.65%;
-    right: 50.45%;
-    top: 87.64%;
-    bottom: 10.3%;
+  margin: 3% 7.65%;
     
     font-family: Forum;
     font-style: normal;
@@ -262,7 +212,7 @@ color: #000000;
     color: #000000;
 }
 .contactemail{
-   
+    margin: 3% 7.65%;
     font-family: Forum;
     font-style: normal;
     font-weight: normal;
@@ -273,7 +223,7 @@ color: #000000;
     color: #000000;
 }
 .contactphonetext{
-    
+    margin: 3% 7.65%;
     font-family: Forum;
     font-style: normal;
     font-weight: normal;
@@ -284,7 +234,7 @@ color: #000000;
     color: #000000;
 }
 .contacthpone{
-   
+    margin: 3% 7.65%;
     font-family: Forum;
     font-style: normal;
     font-weight: normal;
@@ -295,11 +245,10 @@ color: #000000;
     color: #000000;
 }
 .mailimg{
-    position: absolute;
-    left: 2.8%;
+  margin: 3% 7.65%;
     width: 5vh;
     height: 5vh;
-    top: 90.8%;
+    
     
 
     background: url(Images/emailim.png);
@@ -307,15 +256,13 @@ color: #000000;
     mix-blend-mode: normal;
 }
 /*контакты*/
-/*Скрывающаяся часть */
- /* когда чекбокс активен показываем блоки с содержанием  */
- .texthide {
-    display: none; 
-    padding: 10px; 
-    background: #efefef;
-    
-}
+
+
+ 
+
 /*скрывающаяся часть*/
+
+   
     /*обтекание */  
       .rightimg  {
         width: 40%;
@@ -330,12 +277,8 @@ color: #000000;
 /*Slider*/
 
 .slider {
+  position: relative;
     
-    position: absolute;
-    width: 98%;
-    height: 15%;
-    left: 29px;
-    top: 28%;
     overflow: hidden;
   }
 
@@ -351,7 +294,6 @@ color: #000000;
 
   .slider__control {
     position: absolute;
-    top: 50%;
     display: none;
     align-items: center;
     justify-content: center;
@@ -377,11 +319,13 @@ color: #000000;
   }
 
   .slider__control_left {
+    top: 50%;
     left: 0;
   }
 
   .slider__control_right {
-    right: 0;
+    top: 50%;
+    right: 0%;
   }
 
   .slider__control::before {
@@ -402,14 +346,6 @@ color: #000000;
   }
 
   .slider_item_value{
-    
-    position: absolute;
-    
-    
-    left: 1114px;
-    top: 2954px;
-    
-
     font-family: Forum;
     font-style: normal;
     font-weight: normal;
@@ -440,427 +376,125 @@ color: #000000;
     font-size: 36px;
   }
    /* End Slider*/
-/* адаптивная верстка*/
-@media screen and (max-width : 1024px) {
-  body {
-    font-size:1.5em;
-}
 
-h2 {
-  font-size: 36px;
-  line-height: 37px;
-  margin: 2% 1% 1%;
-    font-size:1.5em;
-}
-.slider__item>div {
-  margin: 1% 1% 1%;
-  font-size: 24px;
-  line-height: 25px;
-}
-.textsecsess,.textwehelp{
-  font-size: 36px;
-  line-height: 37px;
-}
-.demo,.textinform{
-    font-size: 24px;
-    line-height: 25px;
-  }
-.demo{
-  top:48%;
-}
-}
+   /* адаптивная верстка*/
 
-@media screen and (max-width : 420px) {
-  .introtext {/* Помошь в получении вида на жительство */
 
-    /* Ключи к */
-    
-    
-        position: absolute;
-        
-        left: 20%;
-        top: 0.5%;
-    
-        font-family: Forum;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 36px;
-        line-height: 0.3%;
-        /* or 278% */
-    
-        font-feature-settings: 'tnum' on, 'lnum' on;
-    
-        color: #000000;
-            }
-    
-    /*intro картинка*/
-    .intro {
-        
-        position: absolute;
-        width: 100%;
-        height: 20%;
-        left: 0px;
-        top: -1%;
-    
-        align-items: center;
-        background: url(Images/IMG_2887.JPG);
-        background-size: cover;
-        mix-blend-mode: normal;
-        object-fit: cover;
-        
+   @media (max-width: 760px){
+    p{
+      margin:  3% 7.65% ;
     }
-    
+    .introtext{
+      
+
+      font-size: 20px;
+      line-height: 14px;
+    }
     .azorestext{
       
-        position: absolute;
-        left: 26%;
-        top: 0.1%;
-        
-        
-        font-family: Forum;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 48px;
-        line-height: 100px;
-        /* or 208% */
-        
-        font-feature-settings: 'tnum' on, 'lnum' on;
-        
-        color: #000000;    
+      
+      font-family: Forum;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 14px;
+      /* or 70% */
+      
+      font-feature-settings: 'tnum' on, 'lnum' on;
+      
+      color: #000000;
     }
-    .azortext2{/*Дом тишина и все что вам может понадобиться */
-        position: absolute;
-       
-        left: 35%;
-        top: 2%;
-    
-        font-family: Forum;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 36px;
-       
-        /* or 278% */
-    
-        font-feature-settings: 'tnum' on, 'lnum' on;
-    
-        color: #000000;
+    .azortext2{
+      
+
+      font-size: 14px;
+      line-height: 14px;
+      /* or 100% */
+      margin: 5% 0 ;
+     
     }
-    
-    .companytext{
-    
-    position: absolute;
-    
-    height: 186px;
-    left: 1%;
-    top: 12%;
-    
-    font-family: Forum;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 40px;
-    font-feature-settings: 'tnum' on, 'lnum' on, 'ss01' on, 'ss03' on, 'dnom' on, 'numr' on;
-    
-    color: #FFFFFF;
-    }
-    img,a{
-        border:none;
-    }
-    .phonimg{
-        z-index: 1;
-        border:none;
-        position: fixed;
-        width: 6vh;
-        height: 6vh;
-        right: 8%;
-        top: 5.3%;
-        
-        background: url("Images/phone.png");
-        background-size: cover;
-        mix-blend-mode: normal;
-    }
-    
-    .whattext{
-    /* Что вы получаете вместе с удивительной красоты природой Азорских островов, океанским воздухом, термальными источниками, пляжами для купания, и серфинга?... */
-    
-    
-    position: absolute;
-    left: 8.21%;
-    right: 3.27%;
-    top: 20.05%;
-    bottom: 67.53%;
-    
-    font-family: Forum;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 53px;
-    font-feature-settings: 'tnum' on, 'lnum' on;
-    
-    color: #000000;
-    }
-    
-    
-    
-    .naicherimg{
-        position: absolute;
-        width: 100% ;
-        height: 50% ;
-        
-        
-        background: url("Images/IMG_2986.JPG");
-        background-size: cover;
-        mix-blend-mode: normal;
-    }
-    .oucenimg{
-        position: absolute;
-        width: 50% ;
-        height: 50% ;
-        
-        background: url("Images/19.jpeg");
-        background-size: cover;
-        mix-blend-mode: normal;
-    }
-    
-    
-       
-    
-    
-    
-    /*иноформация в конце */  
-    .bgform1{
-        position: absolute;
-        left: 2.78%;
-        right:3.5%;
-        top: 42.68%;
-        bottom: 35%;
-    
-        background: rgba(243, 243, 243, 0.336);
-    }
-    
-  .textinform{
-        
-      position: absolute;
-      left: 7.93%;
-      right: 9.6%;
-      top: 73.58%;
-      bottom: 12.14%;
-    
-    font-family: Forum;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 28px;
-    line-height: 31px;
-    font-feature-settings: 'tnum' on, 'lnum' on;
-    
-    color: #000000;
-    
-    
-    }
-    /*инфомация в конце*/
-    
-    
-    
-    .contcactbg{
-        position: absolute;
-        width: 688px;
-        height: 499px;
-        left: 51px;
-        top: 4065px;
-    
-        background: #F3F3F3;
-    }
-    
-    .contacttext1{
-        position: absolute;
-        width: 190px;
-        height: 100px;
-        left: 77px;
-        top: 4102px;
-        
-        font-family: Forum;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 48px;
-        line-height: 53px;
-        font-feature-settings: 'tnum' on, 'lnum' on;
-        
-        color: #000000;
-    }
-    
+   
    
     
-    .contacthpone{
-        position: absolute;
-        width: 297px;
-        height: 39px;
-        left: 77px;
-        top: 4512px;
-        
-        font-family: Forum;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 28px;
-        line-height: 31px;
-        font-feature-settings: 'tnum' on, 'lnum' on;
-        
-        color: #000000;
-    }
-    .mailimg{
-        position: absolute;
-        width: 99px;
-        height: 97px;
-        left: 657px;
-        top: 4599px;
-    
-        background: url(Images/emailim.png);
-        background-size: cover;
-        mix-blend-mode: normal;
-    }
-    /*контакты*/
-    .conteinerprice{
-      position: absolute;
-      left: 5.78%;
-      right: 5.5%;
-      top: 46.36%;
-      bottom: 35.68%;
-    }
-    /*Скрывающаяся часть */
-     /* когда чекбокс активен показываем блоки с содержанием  */
-    
-     .texthide {
-        display: none; 
-        padding: 10px; 
-        background: #efefef;
-        
-    }
-        
-    
-    /*скрывающаяся часть*/
-    
-       
-        /*обтекание */  
-          .rightimg  {
-            margin: 1% 10% 20%;
-            float: left; /* Выравнивание по правому краю  */ 
-            height: 450px ;
-            background-size: cover;
-            mix-blend-mode: normal;
-           }
+    .phonimg{
       
-    
-    /*Slider*/
-    
-    
-    .slider_h2{
-      font-size: 36px;
-      line-height: 37px;
-      margin: 2% 1% 1%;
-      font-size:1.5em;
-      font-size: 36px;
+      width: 19px;
+      height: 16px;
+      left: 332px;
+      top: 11px;
     }
+  .whattext{
+    
+    margin:  3% 7.65% ;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+  }
+  .slider{
+    margin:  3%;
+    overflow: hidden;
+  }   
+.slider__control::before {
+  width: 10px;
+  height: 10px;
+}
+.slider_item_value{
+  
+  font-size: 14px;
+  line-height: 15px;
+
+
+}
+.slider__item>div {
+  
+  height: 98%;
+  font-size: 14px;
+  line-height: 15px;
+
+}
+.rightimg{
+  margin: 0% 0% 0%;
+  width: 100%;
+  height: 40%;
+  align-items: center;
+  background-size: cover;
+  mix-blend-mode: normal;
+}
+.slider_h2{
+    
+  font-size: 20px;
+  line-height: 22px;
 }
 
+.slider__control {
 
+}
 
-
- /*!
-     * chiefSlider (https://itchief.ru/lessons/php/feedback-form-for-website)
-     * Copyright 2018 Alexander Maltsev
-     * Licensed under MIT (https://github.com/itchief/how-to/blob/master/LICENSE)
-     */
-
+.textsecsess{
+  margin:  3% 7.65% ;
+  font-size: 20px;
+  line-height: 22px;
   
-    
-    @media (max-width: 760px){
-      body {
-        height: 2816px;
-      }
-      .introtext{
-        position: absolute;
-        left: 5.28%;
-        right: 18.06%;
-        top: 0.19%;
-        bottom: 98.87%;
+}
+.demo {
+          
+  
+  margin:  3% 7.65% ;
+  font-size: 14px;
+  line-height: 15px;
+  }
 
-        font-size: 20px;
-        line-height: 14px;
-      }
-      .azorestext{
-        position: absolute;
-        left: 28%;
-        top: 0.19%;
-        bottom: 98.87%;
-        
-        font-family: Forum;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 14px;
-        /* or 70% */
-        
-        font-feature-settings: 'tnum' on, 'lnum' on;
-        
-        color: #000000;
-      }
-      .azortext2{
-        position: absolute;
-        left: 3.33%;
-        right: 6.39%;
-        top: 0.99%;
-        bottom: 97.59%;
 
-        font-family: Forum;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 14px;
-        /* or 100% */
-
-        display: flex;
-        align-items: center;
-        text-align: center;
-        font-feature-settings: 'tnum' on, 'lnum' on;
-
-        color: #000000;
-
-      }
-      .intro{
-          position: absolute;
-          left: 0%;
-          right: 0%;
-          top: 2.41%;
-          bottom: 88.47%;
-          height: 10%;
-          align-items: center;
-          background-size: cover;
-          mix-blend-mode: normal;
-        }
+    .textwehelp{
      
-      .companytext{
-        position: absolute;
-        left: 2.78%;
-        right: 1.67%;
-        top: 12.77%;
-        bottom: 84.36%;
-        font-size: 14px;
-        line-height: 15px;
- 
-        color: #000000;
-      }
-      .phonimg{
-        
-        width: 19px;
-        height: 16px;
-        left: 332px;
-        top: 11px;
-      }
-    .whattext{
-      position: absolute;
-      left: 2.78%;
-      right: 6.94%;
-      top: 16.64%;
-      bottom: 80.15%;
+
+      font-size: 20px;
+      line-height: 22px;
+      
+    }
+    .textinform{
       
       font-family: Forum;
       font-style: normal;
@@ -868,170 +502,62 @@ h2 {
       font-size: 14px;
       line-height: 15px;
     }
-    .slider{
-      position: absolute;
-      left: 2%;
-      right: 2%;
-      top: 22.16%;
-      overflow: hidden;
-    }   
-  .slider__control::before {
-    width: 10px;
-    height: 10px;
-  }
-  .slider_item_value{
-    font-size: 14px;
-    line-height: 15px;
-
-
-}
-  .slider__item>div {
-    height: 98%;
-    font-size: 14px;
-    line-height: 15px;
-
-  }
-  .rightimg{
-    margin: 0% 0% 0%;
-    width: 100%;
-    height: 40%;
-    align-items: center;
-    background-size: cover;
-    mix-blend-mode: normal;
-  }
-.slider_h2{
-  font-size: 20px;
-  line-height: 22px;
-}
-
-.slider__control {
-  position: absolute;
-  top: 30%;
-}
-
-  .textsecsess{
-    position: absolute;
-    left: 2.78%;
-    right: 0.83%;
-    top: 38.15%;
-    bottom: 58.27%;
-    font-size: 20px;
-    line-height: 22px;
-    
-  }
-  .demo {
-            
-    right: 0.83%;
-    left: 0.83;
-    top: 42.70%;
-    
-    font-size: 14px;
-    line-height: 15px;
-    margin: 5% 2% 2%;
-    }
-
-
-      .textwehelp{
-        position: absolute;
-        left: 4.17%;
-        right: 25.56%;
-        top: 68.88%;
-        bottom: 35.84%;
-
-        font-size: 20px;
-        line-height: 22px;
-        
-      }
-      .textinform{
-        position: absolute;
-        left: 4.44%;
-        right: 3.33%;
-        top: 70.40%;
-        bottom: 16.0%;
-
-        font-family: Forum;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 15px;
-      }
-      .contacttext1{
-       
-        position: absolute;
-        left: 3.06%;
-        right: 41.94%;
-        top: 89.54%;
-        bottom: 13.19%;
-        font-family: Forum;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 22px;
-      }
-      .contacttext2{
-        width: 90%;
-          position: absolute;
-          left: 3.06%;
-          right: 5.28%;
-          top: 91%;
-          bottom: 11.25%;
-          font-family: Forum;
-          font-style: normal;
-          font-weight: normal;
-          font-size: 14px;
-          line-height: 15px;
-      }
-      .contactemail{
-        position: absolute;
-        left: 3.06%;
-        right: 25%;
-        top: 93%;
-        bottom: 10.03%;
-        
-        font-family: Forum;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 22px;
-      }
+    .contacttext1{
+     
       
-      .contactphonetext{
-        position: absolute;
-        left: 3.06%;
-        right: 13.61%;
-        top: 94%;
-        bottom: 7.09%;
-
+      font-family: Forum;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 22px;
+    }
+    .contacttext2{
+      width: 90%;
+        
         font-family: Forum;
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
         line-height: 15px;
-      }
-      .contacthpone{
-        position: absolute;
-        left: 2.22%;
-        right: 16.67%;
-        top: 95%;
-        bottom: 5.1%;
-        
-        font-family: Forum;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 22px;
-      }
-      .mailimg{
-        height: 0.1%;
-        width: 0.1%;
-        position: absolute;
-        left: 43.61%;
-        right: 43.61%;
-        top: 98.3%;
-        bottom: 0.19%;
-      }
-      .teleport{
-        top: 84.54%;
-      }
+    }
+    .contactemail{
+     
+      
+      font-family: Forum;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 22px;
     }
     
+    .contactphonetext{
+      
+
+      font-family: Forum;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 15px;
+    }
+    .contacthpone{
+     
+      
+      font-family: Forum;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 22px;
+    }
+    .mailimg{
+      height: 0.1%;
+      width: 0.1%;
+      position: absolute;
+      left: 43.61%;
+      right: 43.61%;
+      top: 98.3%;
+      bottom: 0.19%;
+    }
+    .teleport{
+      top: 84.54%;
+    }
+  }

@@ -9,12 +9,14 @@ body{
     color: #000000;
     /* Desktop - 1 */
 
-    position: relative;
     width: auto;
     height: 4922px;
     /*background: url(/Images/mainBG2.jpg);
     background-size: cover;
     mix-blend-mode: normal;*/
+}
+div{
+
 }
 
 
@@ -38,8 +40,7 @@ body{
 /* Ключи к */
 
 
-    position: absolute;
-    
+    position: relative;
     left: 7.65%;
     top: 0.5%;
 
@@ -58,12 +59,12 @@ body{
 
 /*intro картинка*/
 .intro {
+  position: relative;
+  left:0%;
+  top: 0%;
+  width: 100%;
+  height: 100%;
     
-    position: absolute;
-    width: 100%;
-    height: 20%;
-    left: 0px;
-    top: -1%;
 
     align-items: center;
     background: url(Images/IMG_2887.JPG);
@@ -75,8 +76,7 @@ body{
 
 
 .azortext2{/*Дом тишина и все что вам может понадобиться */
-    position: absolute;
-   
+    
     left: 7.65%;
     top: 1%;
 
@@ -93,49 +93,18 @@ body{
     color: #000000;
 }
 
-.companytext{
 
-  position: absolute;
-
-  height: 186px;
-  left: 7.65%;
-  top: 12%;
-
-  font-family: Forum;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-    line-height: 37px;
-  font-feature-settings: 'tnum' on, 'lnum' on, 'ss01' on, 'ss03' on, 'dnom' on, 'numr' on;
-
-  color: #FFFFFF;
-}
 img,a{
     border:none;
 }
-.phonimg{
-    z-index: 1;
-    border:none;
-    position: fixed;
-    width: 6vh;
-    height: 6vh;
-    right: 7.65%;
-    top: 5.3%;
-    
-    background: url("Images/phone.png");
-    background-size: cover;
-    mix-blend-mode: normal;
-}
+
 
 .whattext{
 /* Что вы получаете вместе с удивительной красоты природой Азорских островов, океанским воздухом, термальными источниками, пляжами для купания, и серфинга?... */
 
+    
+    
 
-  position: absolute;
-  left: 7.65%;
-  right: 3.27%;
-  top: 20.05%;
-  bottom: 67.53%;
 
   font-family: Forum;
   font-style: normal;
@@ -150,7 +119,6 @@ img,a{
 /* demo контейнер */
 .demo {
             
-  position: absolute;
   left: 7.5%;
   right: 3%;
   top: 47.2%;
@@ -160,7 +128,6 @@ img,a{
   }
 
 .naicherimg{
-    position: absolute;
     width: 100% ;
     height: 50% ;
     
@@ -170,7 +137,6 @@ img,a{
     mix-blend-mode: normal;
 }
 .oucenimg{
-    position: absolute;
     width: 50% ;
     height: 50% ;
     
@@ -186,7 +152,6 @@ img,a{
 
 /*иноформация в конце */  
 .bgform1{
-    position: absolute;
     left: 2.78%;
     right:3.5%;
     top: 43.68%;
@@ -195,7 +160,6 @@ img,a{
     background: rgba(243, 243, 243, 0.336);
 }
 .textsecsess{
-    position: absolute;
     left: 7.65%;
     right: 3.31%;
     top: 45.2%;
@@ -213,7 +177,6 @@ img,a{
 
 .textwehelp{
     
-  position: absolute;
   left: 7.65%;
   right: 46.42%;
   top: 70.25%;
@@ -229,7 +192,6 @@ img,a{
   color: #000000;
 }.textinform{
         
-  position: absolute;
   left: 7.65%;
   right: 9.6%;
   top: 73.58%;
@@ -253,14 +215,12 @@ color: #000000;
 
 /*Контакты*/
 .teleport{
-    position: absolute;
     width: 1px;
     height: 1px;
     left: 51px;
     top: 3800px;
 }
 .contcactbg{
-    position: absolute;
     width: 688px;
     height: 499px;
     left: 51px;
@@ -270,7 +230,7 @@ color: #000000;
 }
 
 .contacttext1{
-    position: absolute;
+    
     left: 7.65%;
     right: 81.42%;
     top: 85.87%;
@@ -286,7 +246,7 @@ color: #000000;
     color: #000000;
 }
 .contacttext2{
-    position: absolute;
+   
     left: 7.65%;
     right: 50.45%;
     top: 87.64%;
@@ -302,12 +262,7 @@ color: #000000;
     color: #000000;
 }
 .contactemail{
-    position: absolute;
-    left: 7.65%;
-    right: 67.85%;
-    top: 91%;
-    bottom: 8.26%;
-    
+   
     font-family: Forum;
     font-style: normal;
     font-weight: normal;
@@ -318,11 +273,7 @@ color: #000000;
     color: #000000;
 }
 .contactphonetext{
-    position: absolute;
-    left: 7.65%;
-    right: 58.18%;
-    top: 93.46%;
-    bottom: 5.76%;
+    
     font-family: Forum;
     font-style: normal;
     font-weight: normal;
@@ -333,11 +284,7 @@ color: #000000;
     color: #000000;
 }
 .contacthpone{
-    position: absolute;
-    left: 7.65%;
-    right: 73.97%;
-    top: 95.55%;
-    bottom: 3.62%;
+   
     font-family: Forum;
     font-style: normal;
     font-weight: normal;
@@ -360,21 +307,15 @@ color: #000000;
     mix-blend-mode: normal;
 }
 /*контакты*/
-
 /*Скрывающаяся часть */
  /* когда чекбокс активен показываем блоки с содержанием  */
-
  .texthide {
     display: none; 
     padding: 10px; 
     background: #efefef;
     
 }
- 
-
 /*скрывающаяся часть*/
-
-   
     /*обтекание */  
       .rightimg  {
         width: 40%;
@@ -463,8 +404,8 @@ color: #000000;
   .slider_item_value{
     
     position: absolute;
-    width: 240px;
-    height: 100px;
+    
+    
     left: 1114px;
     top: 2954px;
     

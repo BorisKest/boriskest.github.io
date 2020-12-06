@@ -44,9 +44,7 @@ body{
     
 }
 .azortext2{/*Дом тишина и все что вам может понадобиться */
-    position: absolute;
-    left: 7.65%;
-    top: 3%;
+  margin: 3% 7.65%;
     font-family: Forum;
     font-style: normal;
     font-weight: normal;
@@ -82,10 +80,10 @@ img,a{
 
 /* demo контейнер */
 .demo {
-            
-  margin: 3% 7.65%;
+  padding: 2%;          
+  margin: 3% 5.65%;
   font-size: 24px;
- 
+  background: #f3f3f3;
   
   }
   /*Скрывающаяся часть */
@@ -410,7 +408,7 @@ img,a{
       font-size: 14px;
       line-height: 14px;
       /* or 100% */
-      margin: 5% 0 ;
+      
      
     }
    
